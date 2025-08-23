@@ -1,0 +1,113 @@
+body {
+        background-image: url(../images/background.jpg);
+        position: cover;
+        background-repeat: no-repeat;
+        color: red;
+        margin: 0% auto;
+        padding: 40px 50px 0px 100px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 50px auto;
+    }
+    .contact-box {
+        display: flex;
+        color: white;
+    }
+
+    .contact-left {
+        flex-basis: 60%;
+        padding: 40px 60px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        margin-bottom: 40px;
+    }
+
+    .input-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .input-row.input-group {
+        flex-basis: 45%;
+    }
+
+    input {
+        width: 100%;
+        padding-bottom: 5px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    input::placeholder {
+        color: gray;
+    }
+
+    input:hover::placeholder {
+        color: red;
+    }
+
+    input:active::placeholder {
+        color: gray;
+    }
+
+    input:focus ::placeholder {
+        color: black;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    button {
+        width: 200px;
+        margin: 20px auto;
+        border: 1px solid black;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+    }
+
+    button:hover {
+        background: linear-gradient(25deg, rgb(5, 0, 0) 25%, rgb(94, 90, 90) 50%, rgb(243, 3, 3) 100%);
+    }
+
+    button:active {
+        background-color: red;
+    }
+
+    button:focus {
+        background-color: gray;
+    }
+    a{
+        margin: 30px;
+    }
+    table{
+        background-image: url(../images/background.jpg);
+        border: 2px solid grey;
+        b: 50px, 30px, 50px, 45px silver;
+    }
+    table th{
+        background-color: grey;
+        color: white;
+    }
+    td{
+        padding-left: 20px;
+        color: black;
+    }
+    .container1{
+        width: 100%;
+        color: white;
+    }
+    .container a{
+        text-decoration: none;
+        color: white;
+    }
